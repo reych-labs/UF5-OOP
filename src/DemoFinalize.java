@@ -1,4 +1,4 @@
-public class demo {
+public class DemoFinalize {
 
     protected void finalize() throws Throwable {
         try {
@@ -18,7 +18,7 @@ public class demo {
 
     // Driver code
     public static void main(String[] args) throws Throwable {
-        demo d = new demo();
+        DemoFinalize d = new DemoFinalize();
         d.finalize();
     }
 }
