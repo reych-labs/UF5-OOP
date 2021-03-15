@@ -3,7 +3,7 @@ import java.awt.event.*;
 
 public class Converter extends JFrame {
     private JButton jbtAceptar;
-    private JButton jbtCancelar;
+    //private JButton jbtCancelar;
     private JLabel jlbGradosC;
     private JLabel jlbGradosF;
     private JTextField jtfGradosC;
@@ -26,7 +26,7 @@ public class Converter extends JFrame {
         jlbGradosF = new JLabel();
         jtfGradosF = new JTextField();
         jbtAceptar = new JButton();
-        jbtCancelar = new JButton();
+        //jbtCancelar = new JButton();
 
         addWindowListener(new WindowAdapter() {
             public void windowClosing(WindowEvent evt) {
@@ -88,7 +88,7 @@ public class Converter extends JFrame {
         getContentPane().add(jbtAceptar);
         jbtAceptar.setBounds(175, 120, 100, 24);
 
-        jbtCancelar.setMnemonic('C');
+        /*jbtCancelar.setMnemonic('C');
         jbtCancelar.setText("Cancelar");
         getRootPane().setDefaultButton(jbtCancelar);
         jbtCancelar.addActionListener(new ActionListener() {
@@ -97,7 +97,7 @@ public class Converter extends JFrame {
             }
         });
         getContentPane().add(jbtCancelar);
-        jbtCancelar.setBounds(50, 120, 100, 24);
+        jbtCancelar.setBounds(50, 120, 100, 24);*/
     }
 
     private void formWindowOpened (WindowEvent evt) {
